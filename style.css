@@ -1,94 +1,96 @@
 body {
     background-color: #E5E5E5;
     position: absolute;
-width: 232px;
-height: 252px;
+    width: 232px;
+    height: 252px;
 }
 .rect-1 {
     position: absolute;
-   width: 232px;
-   height: 252px; 
-background: #FFFFFF;
+    width: 232px;
+    height: 252px; 
+    background: #FFFFFF;
 
 }
 .rect-4 {
     position: absolute;
-width: 232px;
-height: 152px;
+    width: 232px;
+    height: 152px;
 
-background: #C4C4C4;
-border-radius: 8px;
+    background: #C4C4C4;
+    border-radius: 8px;
 }
 .rect-3 {
     position: absolute;
-    left: 10%;
-right: 60%;
-top: 8%;
-bottom: 75%;
-background: #FFA800;
+    left: 10px;
+    right: 150px;
+    top: 10px;
+    bottom: 118px;
+    display: flex;
+
+    background: #FFA800;
 }
 .card-text {
     position: absolute;
-    left: 16%;
-    right: 19%;
-    top: 0%;
-    bottom: 10.5%;
+left: 12px;
+right: 163px;
+top: -14px;
+bottom: 121px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 17px;
-line-height: 0px;
+line-height: 19px;
 /* identical to box height */
 
 text-align: center;
 font-variant: small-caps;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 .text-2 {
     position: absolute;
-left: 5.17%;
-right: 4.31%;
-top: 65.08%;
-bottom: 26.98%;
+    left: 5.17%;
+    right: 4.31%;
+    top: 65.08%;
+    bottom: 26.98%;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
 /* identical to box height, or 125% */
 
-display: flex;
-align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
 
-color: #000000;
+    color: #000000;
 
-border-radius: 8px;
+    border-radius: 8px;
 }
 .text-3 {
     position: absolute;
-left: 5.17%;
-right: 8.19%;
-top: 76.19%;
-bottom: 11.11%;
+    left: 7.17%;
+    right: 8.19%;
+    top: 73.19%;
+    bottom: 30.11%;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-/* or 114% */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 114% */
 
 
-color: #444444;
+    color: #444444;
 
-border-radius: 8px;
+    border-radius: 8px;
 }
 section {
-    margin-left: 300px;
+    margin-left: 650px;
     margin-right: 50px;
     margin-top: 200px;
     margin-bottom: 100px;
