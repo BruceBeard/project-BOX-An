@@ -1,13 +1,14 @@
 body {
     background: #E5E5E5;
     margin: 0;
-    padding: 0;
+    padding: 0;;
 }
 .item-1 {
     height: 252px;
     width: 232px;
     background: #FFFFFF;
     border-radius: 8px;
+    
 }
 .item-2 {
     width: 232px;
@@ -60,8 +61,10 @@ body {
     color: #444444;    
     padding-top: 8px;
 }
+
 .container {
     display: flex;
+    align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100vw;
