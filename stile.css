@@ -28,7 +28,7 @@ input{
   font-size: 13px;
 }
 .profile{
-  margin: 0px 60px 0px 0px;
+  margin: 0px 65px 0px 0px;
 }
 .categories{
   text-align: center;
@@ -41,4 +41,5 @@ input{
 }
 .function{
   padding: 0px 20px 0px 30px;
+  
 }
