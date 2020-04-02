@@ -1,0 +1,97 @@
+<!Doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jopa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      background: rgb(204, 204, 204);
+      color: white;
+    }
+
+    input {
+      width: 530px;
+      padding: 10px 5px;
+      background: rgb(238, 124, 162);
+      border: none;
+      font-size: 14px;
+      color: white;
+    }
+
+    .block {
+      width: 1230px;
+      background: #FF0768;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .search {
+      width: 1100px;
+     /* border: 1px solid black;*/
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 10px 5px 15px;
+    }
+
+    .favorites {
+      display: flex;
+      margin: 0px 5px;
+    }
+
+    .profile {
+      margin: 0px 5px;
+      font-size: 14px;
+    }
+
+    .categories {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      background-color: #FF0768;
+      padding: 20px 20px 10px 20px;
+    }
+
+    .function {
+      margin: 0px 18px;
+      font-size: 14px;
+    }
+  </style>
+  <div class="block">
+    <div class="search">
+
+      <input type="text" placeholder="Какую скидку ищем в этот раз?">
+
+      <div class="favorites">
+        <div class="profile">&#10084; Избранное</div>
+        <div class="profile">🤦 Профиль</div>
+      </div>
+    </div>
+    <div class="categories">
+
+      <div class="function">Новинки</div>
+      <div class="function">Фитнес</div>
+      <div class="function">Развлечения</div>
+      <div class="function">Товары</div>
+      <div class="function">Услуги</div>
+      <div class="function">Путешествия</div>
+      <div class="function">Еда</div>
+      <div class="function">Мероприятия</div>
+      <div class="function">Здоровье</div>
+      <div class="function">Популярное</div>
+    </div>
+  </div>
+
+</body>
+
+</html>
