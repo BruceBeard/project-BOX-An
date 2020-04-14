@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Большая карточка</title>
+</head>
+
+<body>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .big_card {
+      width: 488px;
+      display: flex;
+      border: 1px solid black;
+      flex-direction: column;
+    }
+
+    .header {
+      height: 330px;
+      display: flex;
+      align-items: flex-start;
+      padding: 10px 5px;
+      justify-content: space-between;
+      background-image: url(https://st.frendi.ru/cfs23/system/offers/000/589/544/7231fadaf741.jpg);
+    }
+
+    .action {
+      color: white;
+      background: red;
+      padding: 3px 15px;
+    }
+
+    .heart {
+      color: white;
+      font-size: 25px;
+      margin: 0px 5px;
+    }
+    .pizza{
+      font-size: 30px;
+      font-weight: 800;
+      font-family: sans-serif;
+      padding: 10px 15px;
+    }
+    .menu{
+      padding: 0px 0px 10px 15px;
+      font-size: 20px;
+      width: 350px;
+    }
+  </style>
+
+  <div class="big_card">
+    <div class="header">
+      <div class="action">скидка</div>
+      <div class="heart">&#10084;</div>
+    </div>
+    <div class="pizza">
+      <div>Пиццерия</div>
+      <div>Parmigiano-Italiano</div>
+    </div>
+      <div class="menu">
+        <div>На все меню и напитки в пиццерии или с доставкой</div>
+      
+    </div>
+  </div>
+</body>
+
+</html>
