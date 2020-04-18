@@ -1,0 +1,76 @@
+<!Doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Маленькая пицца</title>
+</head>
+
+<body>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(211, 206, 206);
+    }
+
+    .block {
+      width: 232px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      background: white;
+    }
+
+    .image_pizza {
+      height: 150px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background: url("http://www.nordica.spb.ru/nordfs/images/pizza_R_l5_3.jpg");
+      background-size: 100%;
+    }
+
+    .discount {
+      color: white;
+      background: red;
+      padding: 0px 10px;
+    }
+    .heart{
+      color: white;
+      font-size: 30px ;
+    }
+    .text_pizza{
+      font-size: 16px;
+      font-weight: 700;
+      font-family: sans-serif;
+      padding: 10px 0px 5px 10px;
+    }
+    .sale_menu{
+      padding: 5px 20px 10px 10px;
+      font-size: 14px;
+    }
+  </style>
+
+  <div class="block">
+    <div class="image_pizza">
+      <div class="discount">скидка</div>
+      <div class="heart">&#9825;</div>
+    </div>
+    <div class="text_pizza">Пиццерия &laquo;Додо Пицца&raquo;</div>
+    <div class="sale_menu">Скидка на 10% на все меню и напитки в пиццерии или с доставкой</div>
+  </div>
+</body>
+
+</html>
