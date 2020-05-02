@@ -10,13 +10,6 @@ body{
   height: 100vh;
   background: black;
 }
-.block_1{
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  height: 400px;
-  background: white;
-}
 .container{
   display: flex;
   flex-direction: column;
@@ -31,27 +24,25 @@ body{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  margin: 20px;
 }
 .verstka{
   color: white;
   font-size: 30px;
   line-height: 150%;
   text-align: center;
-  margin: 0px 5px;
   font-family: Arial, Helvetica, serif;
  }
  .block{
    display: flex;
    flex-flow: row wrap;
    justify-content: center;
-   margin: 70px 0px;
  }
  .html, .odnoclassiki, .specia, .legion{
    width: 160px;
    height: 40px;
    margin: 5px;
  }
+ 
  .html{
    background: url('http://nuqneh.com/wp-content/uploads/post/80838181bab8b9-html-b0bab0b4b5bcb88f-b8bd82b580b0ba82b8b2bd8bb5-bebdbb/logo-of-htmlacademy-825x464.jpg') center;
    background-size: 100%;
