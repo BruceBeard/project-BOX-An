@@ -12,19 +12,20 @@ body{
   flex-wrap: nowrap;
 }
 .container{
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
   width: 650px;
   height: 450px;
+  padding: 30px;
   background: url('https://avatars.mds.yandex.net/get-pdb/986926/02ff2ce8-df73-44b8-bcd5-4bd28d236e87/s1200');
   background-size: 120%;
 }
 .lohotron{
   display: flex;
-  color: white;
   justify-content: space-between;
-  align-items: center;
-  margin: 40px 30px 0px;
+  align-items: flex-start;
+  color: white;
 }
 .loh{
   font-size: 30px;
@@ -33,11 +34,6 @@ body{
   font-size: 20px;
 }
 .lair{
-  display: flex;
-  justify-content: flex-end;
-  color: rgb(255, 255, 255, .7);
-  font-size: 12px;
-  margin: 0px 30px;
 }
 .job{
   display: flex;
@@ -45,7 +41,6 @@ body{
   color: white;
   font-size: 45px;
   font-family: Noto Sans, sans-serif;
-  margin: 30px 30px 0px;
 }
 .many{
   display: flex;
@@ -53,21 +48,17 @@ body{
   color: white;
   font-size: 45px;
   font-family: Noto Sans, sans-serif;
-  margin: 0px 30px 0px;
 }
 .no{
-  display: flex;
   color: white;
   font-size: 20px;
   font-family: Noto Sans, sans-serif;
-  margin: 5px 30px;
 }
 .fool{
   display: flex;
   align-items: center;
   color: white;
   justify-content: flex-start;
-  margin-top: 30px;
 }
 .foto{
   width: 4em;
@@ -75,8 +66,7 @@ body{
   border-radius: 50%;
   border: 1px solid white;
   background: url('https://cdn.sm-news.ru/wp-content/uploads/2019/12/21/preview_uzn_1468648123.jpg') center;
-  background-size: 150%; 
-  margin-left: 30px;
+  background-size: 150%;
 }
 .random{
   display: flex;
@@ -91,9 +81,8 @@ button{
   background-color: rgb(255, 222, 37);
   border: none;
   border-radius: 20px;
-  margin-left: 135px;
 }
 span{
-  font-size: 12px;
-  color: rgb(255, 255, 255, .5);
+  font-size: 13px;
+  color: rgb(255, 255, 255, .7);
 }
